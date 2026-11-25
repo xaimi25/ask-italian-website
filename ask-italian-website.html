@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASK ITALIAN — Premium Fast Food Restaurant, Multan</title>
+<meta name="description" content="ASK Italian Multan — Deep Pan Pizzas, Smash Burgers & Creamy Pasta. Two branches: Buch Villas & Gulgasht. Order on WhatsApp. Open daily 12 PM – 2 AM.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{--red:#e5383b;--red-d:#b91c1c;--dark:#141414;--dark2:#1d1d1d;--card:#232323;--cream:#fff8f0;--muted:#b8b0a6;--gold:#f5b301}
+  body{font-family:'Inter',sans-serif;background:var(--dark);color:var(--cream);line-height:1.6}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+  /* header */
+  header{position:sticky;top:0;z-index:50;background:rgba(20,20,20,.95);backdrop-filter:blur(6px);border-bottom:1px solid #2c2c2c}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;max-width:1100px;margin:0 auto}
+  .logo{font-family:'Playfair Display',serif;font-weight:900;font-size:26px;letter-spacing:1px}
+  .logo span{color:var(--red)}
+  .nav-links{display:flex;gap:22px;font-size:14px;font-weight:600;color:var(--muted)}
+  .nav-links a:hover{color:var(--cream)}
+  .btn{display:inline-block;background:var(--red);color:#fff;font-weight:700;padding:11px 22px;border-radius:999px;font-size:15px;border:0;cursor:pointer}
+  .btn:hover{background:var(--red-d)}
+  .btn-ghost{background:transparent;border:1.5px solid var(--red);color:#fff}
+  .btn-ghost:hover{background:var(--red)}
+  /* hero */
+  .hero{padding:72px 20px 60px;text-align:center;background:radial-gradient(ellipse at 50% 0%,#3a0d0d 0%,#141414 60%)}
+  .hero .kicker{color:var(--gold);font-weight:700;letter-spacing:3px;text-transform:uppercase;font-size:13px}
+  .hero h1{font-family:'Playfair Display',serif;font-size:52px;line-height:1.08;margin:16px 0 14px}
+  .hero h1 em{color:var(--red);font-style:normal}
+  .hero p{color:var(--muted);font-size:18px;max-width:640px;margin:0 auto 26px}
+  .hero-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .trust{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;margin-top:34px;font-size:14px;color:var(--muted)}
+  .trust b{color:var(--cream)}
+  /* sections */
+  section{padding:56px 0}
+  h2{font-family:'Playfair Display',serif;font-size:34px;margin-bottom:6px}
+  .sub{color:var(--muted);margin-bottom:28px}
+  /* deal */
+  .deal{background:linear-gradient(135deg,#7f1d1d,#b91c1c);border-radius:18px;padding:30px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+  .deal h3{font-family:'Playfair Display',serif;font-size:28px}
+  .deal p{color:#ffe4e6}
+  .deal .price{font-family:'Playfair Display',serif;font-size:44px;font-weight:900}
+  .deal .price small{font-size:16px;font-family:'Inter',sans-serif;font-weight:600}
+  /* menu */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+  .card{background:var(--card);border:1px solid #2e2e2e;border-radius:16px;padding:24px}
+  .card .tag{display:inline-block;background:#3a0d0d;color:#fca5a5;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:4px 10px;border-radius:999px;margin-bottom:12px}
+  .card h3{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:8px}
+  .card ul{list-style:none;margin-bottom:16px}
+  .card li{padding:7px 0;border-bottom:1px dashed #333;color:#e8e0d8;font-size:15px}
+  .card li:last-child{border-bottom:0}
+  .card li span{display:block;font-size:13px;color:var(--muted)}
+  .price-note{font-size:13px;color:var(--gold);margin-bottom:14px}
+  /* branches */
+  .branch{background:var(--card);border:1px solid #2e2e2e;border-radius:16px;padding:26px;margin-bottom:16px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center}
+  .branch h3{font-family:'Playfair Display',serif;font-size:22px}
+  .branch p{color:var(--muted);font-size:15px}
+  .branch .actions{display:flex;gap:10px;flex-wrap:wrap}
+  /* footer */
+  footer{border-top:1px solid #2c2c2c;padding:36px 0;text-align:center;color:var(--muted);font-size:14px}
+  footer .logo{font-size:22px}
+  footer a{color:var(--cream);font-weight:600}
+  .rating{margin-top:10px;color:var(--gold);font-weight:700}
+  @media(max-width:640px){.hero h1{font-size:36px}.nav-links{display:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a class="logo" href="#">ASK <span>ITALIAN</span></a>
+    <nav class="nav-links">
+      <a href="#menu">Menu</a>
+      <a href="#deals">Deals</a>
+      <a href="#branches">Branches</a>
+    </nav>
+    <a class="btn" href="https://wa.me/923111130275?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20from%20ASK%20Italian.">Order on WhatsApp</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="kicker">Premium Fast Food &bull; Multan</div>
+    <h1>Experience the Ultimate <em>Italian Fast Food</em></h1>
+    <p>Freshly baked deep pan pizzas with irresistible cheese pulls, handcrafted smash burgers, creamy pasta &mdash; made fresh every day.</p>
+    <div class="hero-cta">
+      <a class="btn" href="https://wa.me/923111130275?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20from%20ASK%20Italian.">Order on WhatsApp</a>
+      <a class="btn btn-ghost" href="tel:+923111130275">Call 0311-1130275</a>
+    </div>
+    <div class="trust">
+      <span><b>2</b> branches in Multan</span>
+      <span>Open daily <b>12 PM &ndash; 2 AM</b></span>
+      <span><b>4.0&starf;</b> from 49+ reviews</span>
+    </div>
+  </div>
+</div>
+
+<section id="deals">
+  <div class="wrap">
+    <h2>Today&rsquo;s Deal</h2>
+    <p class="sub">Big cravings, small price.</p>
+    <div class="deal">
+      <div>
+        <h3>Big Cravings Deal</h3>
+        <p>1 Small Pizza + 1 Delicious Burger + 1 Chilled Cold Drink</p>
+      </div>
+      <div style="text-align:right">
+        <div class="price">Rs. 999</div>
+        <a class="btn" style="background:#fff;color:#b91c1c;margin-top:8px" href="https://wa.me/923111130275?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20the%20Big%20Cravings%20Deal%20(Rs.%20999)%20from%20ASK%20Italian.">Order this deal</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="menu">
+  <div class="wrap">
+    <h2>Our Menu</h2>
+    <p class="sub">Today&rsquo;s price on WhatsApp &mdash; message us and order in seconds.</p>
+    <div class="grid">
+
+      <div class="card">
+        <span class="tag">Pizzas</span>
+        <h3>Deep Pan Pizzas</h3>
+        <ul>
+          <li>Loaded Beef Pizza<span>Cheesy, loaded &mdash; the crowd favourite</span></li>
+          <li>Spicy Pepperoni Pizza<span>Perfectly crispy crust, real cheese pull</span></li>
+          <li>Classic Deep Pan Pizza<span>Authentic Italian taste, baked fresh</span></li>
+        </ul>
+        <div class="price-note">Price: today&rsquo;s price on WhatsApp</div>
+        <a class="btn" href="https://wa.me/923111130275?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20Pizza%20from%20ASK%20Italian.">Order Pizza</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Burgers</span>
+        <h3>Smash Burgers</h3>
+        <ul>
+          <li>Smash Burger<span>Handcrafted, juicy, made fresh</span></li>
+          <li>Cheeseburger<span>Classic favourite with melted cheese</span></li>
+        </ul>
+        <div class="price-note">Price: today&rsquo;s price on WhatsApp</div>
+        <a class="btn" href="https://wa.me/923111130275?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20a%20Burger%20from%20ASK%20Italian.">Order Burger</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Pasta &amp; Rolls</span>
+        <h3>Pasta &amp; Rolls</h3>
+        <ul>
+          <li>Creamy Pasta<span>Very creamy and flavourful, balanced taste</span></li>
+          <li>Bihari Roll<span>A must-try signature roll</span></li>
+        </ul>
+        <div class="price-note">Price: today&rsquo;s price on WhatsApp</div>
+        <a class="btn" href="https://wa.me/923111130275?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20Pasta%20%2F%20Roll%20from%20ASK%20Italian.">Order Pasta / Roll</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Sides</span>
+        <h3>Sides &amp; Wings</h3>
+        <ul>
+          <li>Crispy Fries<span>Golden and crispy</span></li>
+          <li>Baked Chicken Wings<span>With our special sauce</span></li>
+        </ul>
+        <div class="price-note">Price: today&rsquo;s price on WhatsApp</div>
+        <a class="btn" href="https://wa.me/923111130275?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20Sides%20from%20ASK%20Italian.">Order Sides</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="branches">
+  <div class="wrap">
+    <h2>Visit Us</h2>
+    <p class="sub">Two branches, same taste. Open daily 12 PM &ndash; 2 AM.</p>
+
+    <div class="branch">
+      <div>
+        <h3>Branch 01 &mdash; Buch Villas</h3>
+        <p>S-37 Main Boulevard, Buch Villas, Multan<br>Phone: 0311-1130275</p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="https://wa.me/923111130275?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20from%20ASK%20Italian%20(Buch%20Villas).">WhatsApp Order</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=ASK+Italian+Buch+Villas+Multan">Get Directions</a>
+      </div>
+    </div>
+
+    <div class="branch">
+      <div>
+        <h3>Branch 02 &mdash; Gulgasht</h3>
+        <p>7-B Near Comprehensive Girls School, Gulgasht, Multan<br>Phone: 0311-1130276</p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="https://wa.me/923111130276?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20from%20ASK%20Italian%20(Gulgasht).">WhatsApp Order</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=ASK+Italian+Gulgasht+Multan">Get Directions</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="logo">ASK <span style="color:var(--red)">ITALIAN</span></div>
+    <div class="rating">4.0&starf; &mdash; based on 49+ reviews</div>
+    <p style="margin-top:10px">
+      <a href="https://www.facebook.com/161643320371502/">Facebook</a> &nbsp;&middot;&nbsp;
+      Instagram: @askitalian.pk &nbsp;&middot;&nbsp;
+      <a href="tel:+923111130275">0311-1130275</a>
+    </p>
+    <p style="margin-top:8px">Open daily 12 PM &ndash; 2 AM &bull; Dine-in, takeaway &amp; delivery</p>
+  </div>
+</footer>
+
+</body>
+</html>
